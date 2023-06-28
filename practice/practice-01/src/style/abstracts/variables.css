@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #74c69d;
+  --text-dark: #d6d6d6;
+  --white: #ffffff;
+  --black: #000000;
+  --ff-crimsontext-regular: CrimsonText-Regular;
+  --ff-crimsontext-700: CrimsonText-700;
+  --ff-worksans-500: WorkSans-500;
+  --ff-worksans-700: WorkSans-700;
+  --ff-worksans-regular: WorkSans-Regular;
+}

@@ -1,0 +1,126 @@
+@import url("./abstracts/variables.css");
+
+@font-face {
+  font-family: CrimsonText-Regular;
+  src: url(../font/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: CrimsonText-700;
+  src: url(../font/CrimsonText-700.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-500;
+  src: url(../font/WorkSans-500.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-700;
+  src: url(../font/WorkSans-700.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-Regular;
+  src: url(../font/WorkSans-Regular.ttf);
+}
+
+.header__background {
+  background-color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  width: 1175px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  margin: auto;
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--ff-worksans-regular);
+  font-size: 20px;
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--text-dark);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.welcome__container {
+  margin: auto;
+  width: 1180px;
+  display: flex;
+  gap: 120px;
+  padding-bottom: 82.87px;
+  align-items: center;
+}
+
+.welcome__image {
+  width: 644.279px;
+  height: 378.13px;
+}
+
+.welcome__content > p:first-child {
+  font-size: 16px;
+  font-family: var(--ff-worksans-700);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.welcome__content h1 {
+  font-size: 40px;
+  font-family: var(--ff-crimsontext-700);
+  line-height: 125%;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.welcome__content .text__description {
+  font-size: 15px;
+  font-family: var(--ff-worksans-regular);
+  line-height: 125%;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+.btn {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 48px;
+  border: none;
+  color: var(--black);
+  background-color: var(--white);
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Work Sans;
+  line-height: 125%;
+  font-family: var(--ff-worksans-regular);
+}
+
+.btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
