@@ -1,24 +1,25 @@
 @font-face {
-    font-family: CrimsonText-Regular;
-    src: url(../../font/CrimsonText-Regular.ttf);
-  }
-  
-  @font-face {
-    font-family: CrimsonText-700;
-    src: url(../../font/CrimsonText-700.ttf);
-  }
-  
-  @font-face {
-    font-family: WorkSans-500;
-    src: url(../../font/WorkSans-500.ttf);
-  }
-  
-  @font-face {
-    font-family: WorkSans-700;
-    src: url(../../font/WorkSans-700.ttf);
-  }
-  
-  @font-face {
-    font-family: WorkSans-Regular;
-    src: url(../../font/WorkSans-Regular.ttf);
-  }
+  font-family: CrimsonText-Regular;
+  src: url(../../font/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: CrimsonText-700;
+  src: url(../../font/CrimsonText-700.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: WorkSans-500;
+  src: url(../../font/WorkSans-500.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-700;
+  src: url(../../font/WorkSans-700.ttf);
+}
+
+@font-face {
+  font-family: WorkSans-Regular;
+  src: url(../../font/WorkSans-Regular.ttf);
+}
