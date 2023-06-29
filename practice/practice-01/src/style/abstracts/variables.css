@@ -6,9 +6,9 @@
   --fs-sm: 15px;
   --fs-md: 20px;
   --fs-lg: 40px;
-  --ff-crimsontext-regular: CrimsonText-Regular;
-  --ff-crimsontext-700: CrimsonText-700;
-  --ff-worksans-500: WorkSans-500;
-  --ff-worksans-700: WorkSans-700;
-  --ff-worksans-regular: WorkSans-Regular;
+  --ff-secondary-regular: CrimsonText-Regular;
+  --ff-secondary-bold: CrimsonText-Bold;
+  --ff-primary-medium: WorkSans-Medium;
+  --ff-primary-bold: WorkSans-Bold;
+  --ff-primary-regular: WorkSans-Regular;
 }

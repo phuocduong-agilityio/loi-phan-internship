@@ -4,18 +4,18 @@
 }
 
 @font-face {
-  font-family: CrimsonText-700;
+  font-family: CrimsonText-Bold;
   src: url(../../font/CrimsonText-700.ttf);
   font-weight: 700;
 }
 
 @font-face {
-  font-family: WorkSans-500;
+  font-family: WorkSans-Medium;
   src: url(../../font/WorkSans-500.ttf);
 }
 
 @font-face {
-  font-family: WorkSans-700;
+  font-family: WorkSans-Bold;
   src: url(../../font/WorkSans-700.ttf);
 }
 
