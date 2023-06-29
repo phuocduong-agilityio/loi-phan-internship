@@ -130,44 +130,42 @@
 
 /* Pattern Section */
 .sponsor__container {
-  width: 100%;
-  max-width: var(--max-width);
+  width: var(--width);
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 55px;
   margin-bottom: 73px;
 }
 
-.sponsor__content {
+.align-center {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sponsor__content {
   gap: 16px;
-  max-width: 411px;
+  width: 411px;
 }
 
 .sponsor__title {
   font-family: var(--ff-primary-bold);
-  font-style: inherit;
-  line-height: 125%;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: var(--primary-color);
 }
 
+.line-height-125 {
+  line-height: 125%;
+}
+
 .sponsor__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  font-style: normal;
-  line-height: 125%;
 }
 
 .sponsor__description {
   font-size: var(--fs-md);
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
   text-align: center;
 }
 
