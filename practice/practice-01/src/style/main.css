@@ -1,35 +1,11 @@
 @import url("./abstracts/variables.css");
-
-@font-face {
-  font-family: CrimsonText-Regular;
-  src: url(../font/CrimsonText-Regular.ttf);
-}
-
-@font-face {
-  font-family: CrimsonText-700;
-  src: url(../font/CrimsonText-700.ttf);
-}
-
-@font-face {
-  font-family: WorkSans-500;
-  src: url(../font/WorkSans-500.ttf);
-}
-
-@font-face {
-  font-family: WorkSans-700;
-  src: url(../font/WorkSans-700.ttf);
-}
-
-@font-face {
-  font-family: WorkSans-Regular;
-  src: url(../font/WorkSans-Regular.ttf);
-}
+@import url("./base/typo.css");
 
 .header__background {
   background-color: var(--primary-color);
 }
 
-header {
+.container {
   display: flex;
   width: 1175px;
   align-items: center;
@@ -38,28 +14,29 @@ header {
   padding-bottom: 40px;
   margin: auto;
   color: var(--white);
-  cursor: pointer;
   font-family: var(--ff-worksans-regular);
   font-size: 20px;
-}
-
-.link {
-  transition: 0.3s;
-}
-
-.link:hover {
-  color: var(--text-dark);
 }
 
 .logo {
   cursor: pointer;
 }
 
-.nav__links {
+.nav__lists {
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+
+.nav__items-link {
+  text-decoration: none;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.nav__items-link:hover {
+  color: var(--text-dark);
 }
 
 .welcome__container {
@@ -76,7 +53,7 @@ header {
   height: 378.13px;
 }
 
-.welcome__content > p:first-child {
+.welcome__content > p {
   font-size: 16px;
   font-family: var(--ff-worksans-700);
   letter-spacing: 5px;
@@ -93,8 +70,10 @@ header {
   margin-bottom: 15px;
 }
 
-.welcome__content .text__description {
+.welcome__content .welcome__description {
+  text-transform: none;
   font-size: 15px;
+  letter-spacing: 0px;
   font-family: var(--ff-worksans-regular);
   line-height: 125%;
   color: var(--white);
