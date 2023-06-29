@@ -3,6 +3,7 @@
 
 .header__background {
   background-color: var(--primary-color);
+  margin-bottom: 60px;
 }
 
 .container {
@@ -39,6 +40,7 @@
   color: var(--text-dark);
 }
 
+/* Welcome section */
 .welcome {
   margin: auto;
   width: 1180px;
@@ -93,10 +95,6 @@
   height: 48px;
   border: none;
 
-  /* Color */
-  color: var(--black);
-  background-color: var(--white);
-
   /* Text */
   font-family: var(--ff-primary-regular);
   font-size: var(--fs-md);
@@ -108,7 +106,72 @@
   transition: 0.2s;
 }
 
-.btn:hover {
+/* Button */
+.btn-primary {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.btn-primary:hover {
   background-color: var(--black);
   color: var(--white);
+}
+
+.btn-secondary {
+  color: var(--white);
+  background-color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.btn-secondary:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Pattern Section */
+.sponsor__container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 73px;
+}
+
+.sponsor__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 411px;
+}
+
+.sponsor__title {
+  font-family: var(--ff-primary-bold);
+  font-style: inherit;
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.sponsor__heading {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-secondary-bold);
+  font-style: normal;
+  line-height: 125%;
+}
+
+.sponsor__description {
+  font-size: var(--fs-md);
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+  text-align: center;
+}
+
+.sponsor__logo {
+  display: flex;
+  gap: 68px;
 }
