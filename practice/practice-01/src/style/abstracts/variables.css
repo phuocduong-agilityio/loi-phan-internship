@@ -3,7 +3,9 @@
   --text-dark: #d6d6d6;
   --white: #ffffff;
   --black: #000000;
-  --font-size-20: 20px;
+  --fs-sm: 15px;
+  --fs-md: 20px;
+  --fs-lg: 40px;
   --ff-crimsontext-regular: CrimsonText-Regular;
   --ff-crimsontext-700: CrimsonText-700;
   --ff-worksans-500: WorkSans-500;
