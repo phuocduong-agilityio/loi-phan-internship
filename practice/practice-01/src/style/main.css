@@ -171,3 +171,32 @@
   display: flex;
   gap: 68px;
 }
+
+/* Conversation Section */
+.conversation__container {
+  width: var(--width);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 73.57px;
+}
+
+.conversation__content {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conversation__heading {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-secondary-bold);
+  line-height: 125%;
+}
+
+.conversation__description {
+  font-size: var(--fs-sm);
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+}
