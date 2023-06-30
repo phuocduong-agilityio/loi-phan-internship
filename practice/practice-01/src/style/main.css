@@ -227,3 +227,84 @@
   font-family: var(--ff-primary-regular);
   line-height: 125%;
 }
+
+/* Team section */
+
+.team__container {
+  gap: 45px;
+}
+
+.team__content {
+  width: 404px;
+  gap: 16px;
+}
+
+.team__title {
+  font-family: var(--ff-primary-bold);
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: var(--primary-color);
+}
+
+.team__heading {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-secondary-bold);
+  line-height: 125%;
+}
+
+.team__description {
+  font-size: var(--fs-md);
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+
+  text-align: center;
+}
+
+.team__image-container {
+  display: flex;
+  gap: 47px;
+}
+
+.team__frame {
+  width: var(--frame-width);
+  height: var(--frame-height);
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.team__frame:hover {
+  transform: scale(1.2);
+}
+
+.team__image-content {
+  padding: 20px 40px;
+  gap: 18px;
+}
+
+.team__image {
+  width: 175px;
+  height: 175px;
+}
+
+.team__information {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 100%;
+}
+
+.team__name {
+  font-size: 24px;
+  font-family: var(--ff-secondary-bold);
+  line-height: 125%;
+  text-transform: capitalize;
+}
+
+.team__position {
+  font-size: var(--fs-sm);
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+  text-transform: uppercase;
+}
