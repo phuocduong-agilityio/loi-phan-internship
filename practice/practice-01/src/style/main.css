@@ -1,7 +1,7 @@
 @import url("./abstracts/variables.css");
 @import url("./base/typo.css");
 
-.header__background {
+.background {
   background-color: var(--primary-color);
 }
 
@@ -232,6 +232,7 @@
 
 .team__container {
   gap: 45px;
+  margin-bottom: 54px;
 }
 
 .team__content {
@@ -307,4 +308,26 @@
   font-family: var(--ff-primary-regular);
   line-height: 125%;
   text-transform: uppercase;
+}
+
+/* Footer */
+.footer__content {
+  padding: 50px 131px;
+  display: flex;
+  justify-content: space-between;
+  width: var(--width);
+  margin: auto;
+}
+
+.footer__logos {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__text {
+  font-size: var(--fs-md);
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+
+  color: var(--white);
 }
