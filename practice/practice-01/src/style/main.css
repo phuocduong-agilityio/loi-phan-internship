@@ -175,11 +175,10 @@
 /* Conversation Section */
 .conversation__container {
   width: var(--width);
-  margin: auto;
+  margin: 60px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 73.57px;
 }
 
 .conversation__content {
