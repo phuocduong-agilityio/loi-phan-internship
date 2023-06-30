@@ -199,3 +199,31 @@
   font-family: var(--ff-primary-regular);
   line-height: 125%;
 }
+
+/* Security section */
+.security__container {
+  width: var(--width);
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.security__content {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.security__heading {
+  font-size: var(--fs-lg);
+  font-family: var(--ff-secondary-bold);
+  line-height: 125%;
+}
+
+.security__description {
+  font-size: 15px;
+  font-family: var(--ff-primary-regular);
+  line-height: 125%;
+}
