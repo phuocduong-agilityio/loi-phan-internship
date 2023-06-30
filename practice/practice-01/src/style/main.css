@@ -3,7 +3,6 @@
 
 .header__background {
   background-color: var(--primary-color);
-  margin-bottom: 60px;
 }
 
 .container {
@@ -131,9 +130,8 @@
 /* Pattern Section */
 .sponsor__container {
   width: var(--width);
-  margin: auto;
+  margin: 60 auto;
   gap: 55px;
-  margin-bottom: 73px;
 }
 
 .align-center {
@@ -169,7 +167,7 @@
   text-align: center;
 }
 
-.sponsor__logo {
+.sponsor__logos {
   display: flex;
   gap: 68px;
 }
