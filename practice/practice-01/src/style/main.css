@@ -1,13 +1,26 @@
 @import url("./abstracts/variables.css");
 @import url("./base/typo.css");
 
+* {
+  line-height: 125%;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: auto;
+}
+
+.width-container {
+  width: var(--max-width);
+  margin: auto;
+}
+
 .background {
   background-color: var(--primary-color);
 }
 
 .container {
   display: flex;
-  width: 1175px;
   align-items: center;
   justify-content: space-between;
   padding-top: 35px;
@@ -42,7 +55,6 @@
 /* Welcome section */
 .welcome {
   margin: auto;
-  width: 1180px;
   display: flex;
   gap: 120px;
   padding-bottom: 82.87px;
@@ -55,11 +67,6 @@
   gap: 15px;
 }
 
-.welcome__image {
-  width: 644.279px;
-  height: 378.13px;
-}
-
 .welcome__title {
   font-family: var(--ff-primary-bold);
   letter-spacing: 5px;
@@ -70,7 +77,6 @@
 .welcome__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
   color: var(--white);
 }
 
@@ -79,7 +85,6 @@
   font-size: var(--fs-sm);
   letter-spacing: 0px;
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
   color: var(--white);
   margin-bottom: 25px;
 }
@@ -98,7 +103,6 @@
   font-family: var(--ff-primary-regular);
   font-size: var(--fs-md);
   text-decoration: none;
-  line-height: 125%;
 
   /* Other */
   cursor: pointer;
@@ -129,7 +133,6 @@
 
 /* Pattern Section */
 .sponsor__container {
-  width: var(--width);
   margin: 60 auto;
   gap: 55px;
 }
@@ -152,10 +155,6 @@
   color: var(--primary-color);
 }
 
-.line-height-125 {
-  line-height: 125%;
-}
-
 .sponsor__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
@@ -174,7 +173,6 @@
 
 /* Conversation Section */
 .conversation__container {
-  width: var(--width);
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
@@ -191,18 +189,15 @@
 .conversation__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
 }
 
 .conversation__description {
   font-size: var(--fs-sm);
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
 }
 
 /* Security section */
 .security__container {
-  width: var(--width);
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
@@ -219,13 +214,11 @@
 .security__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
 }
 
 .security__description {
   font-size: 15px;
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
 }
 
 /* Team section */
@@ -242,7 +235,6 @@
 
 .team__title {
   font-family: var(--ff-primary-bold);
-  line-height: 125%;
   letter-spacing: 5px;
   text-transform: uppercase;
 
@@ -252,25 +244,23 @@
 .team__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
 }
 
 .team__description {
   font-size: var(--fs-md);
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
 
   text-align: center;
 }
 
 .team__image-container {
   display: flex;
-  gap: 47px;
+  gap: 35px;
 }
 
 .team__frame {
-  width: var(--frame-width);
-  height: var(--frame-height);
+  width: 270px;
+  height: 299px;
   box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
 }
@@ -299,14 +289,12 @@
 .team__name {
   font-size: 24px;
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
   text-transform: capitalize;
 }
 
 .team__position {
   font-size: var(--fs-sm);
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
   text-transform: uppercase;
 }
 
@@ -315,7 +303,7 @@
   padding: 50px 131px;
   display: flex;
   justify-content: space-between;
-  width: var(--width);
+  width: var(--max-width);
   margin: auto;
 }
 
