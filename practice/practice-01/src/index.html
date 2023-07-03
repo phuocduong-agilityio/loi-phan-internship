@@ -7,136 +7,155 @@
     <link rel="stylesheet" href="./style/base/reset.css" />
     <link rel="stylesheet" href="./style/main.css" />
   </head>
+
   <body>
-    <div class="header__background">
-      <!-- Header -->
-      <header>
-        <div class="container">
-          <img src="./assets/images/logo.svg" alt="" class="logo" />
-          <nav class="nav">
-            <ul class="nav__lists">
-              <li class="nav__item">
-                <a href="javascript:void(0)" class="nav__item-link">Home</a>
+    <div class="wrapper">
+      <div class="header__background">
+        <!-- Header -->
+        <div class="width-container">
+          <header>
+            <div class="container">
+              <img src="./assets/images/logo.svg" alt="" class="logo" />
+              <nav class="nav">
+                <ul class="nav__lists">
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" class="nav__item-link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" class="nav__item-link"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" class="nav__item-link"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a href="javascript:void(0)" class="nav__item-link"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          <!-- Welcome section -->
+          <section class="welcome">
+            <div class="welcome__content">
+              <span class="welcome__title">Welcome</span>
+              <h1 class="welcome__heading">
+                Lorem ipsum dolor sit amet consectetur
+              </h1>
+              <p class="welcome__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
+                error ipsum, voluptate culpa nesciunt delectus iste?
+              </p>
+              <a href="javascript:void(0)" class="btn btn-primary">Explore</a>
+            </div>
+            <img
+              src="./assets/images/header-image.png"
+              alt="Header Image"
+              class="welcome__image"
+            />
+          </section>
+        </div>
+      </div>
+
+      <div class="width-container">
+        <!-- Sponsor section -->
+        <section class="sponsor">
+          <div class="sponsor__container align-center">
+            <div class="sponsor__content align-center">
+              <span class="sponsor__title line-height-125">Partners</span>
+              <h2 class="sponsor__heading line-height-125">
+                Lorem Ipsum Dolor
+              </h2>
+              <p class="sponsor__description line-height-125">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+
+            <!-- Logo items -->
+            <ul class="sponsor__logos">
+              <li class="sponsor__logo-item">
+                <img src="./assets/images/logo-1.png" alt="Logo Sponsor" />
               </li>
-              <li class="nav__item">
-                <a href="javascript:void(0)" class="nav__item-link"
-                  >Portfolio</a
-                >
+              <li class="sponsor__logo-item">
+                <img src="./assets/images/logo-2.png" alt="Logo Sponsor" />
               </li>
-              <li class="nav__item">
-                <a href="javascript:void(0)" class="nav__item-link">Services</a>
+              <li class="sponsor__logo-item">
+                <img src="./assets/images/logo-3.png" alt="Logo Sponsor" />
               </li>
-              <li class="nav__item">
-                <a href="javascript:void(0)" class="nav__item-link">Contact</a>
+              <li class="sponsor__logo-item">
+                <img src="./assets/images/logo-4.png" alt="Logo Sponsor" />
+              </li>
+              <li class="sponsor__logo-item">
+                <img src="./assets/images/logo-5.png" alt="Logo Sponsor" />
               </li>
             </ul>
-          </nav>
-        </div>
-      </header>
+            <a href="javascript:void(0)" class="btn btn-secondary"
+              >Learn More</a
+            >
+          </div>
+        </section>
 
-      <!-- Welcome section -->
-      <section class="welcome">
-        <div class="welcome__content">
-          <span class="welcome__title">Welcome</span>
-          <h1 class="welcome__heading">
-            Lorem ipsum dolor sit amet consectetur
-          </h1>
-          <p class="welcome__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
-            voluptate culpa nesciunt delectus iste?
-          </p>
-          <a href="javascript:void(0)" class="btn btn-primary">Explore</a>
-        </div>
-        <img
-          src="./assets/images/header-image.png"
-          alt="Header Image"
-          class="welcome__image"
-        />
-      </section>
+        <!-- Conversation section -->
+        <section class="conversation">
+          <div class="conversation__container">
+            <!-- Conversation image -->
+            <img
+              src="./assets/images/conversation.png"
+              alt="Conversation Image"
+              class="conversation__image"
+            />
+
+            <!-- Conversation content -->
+            <div class="conversation__content">
+              <h2 class="conversation__heading">
+                Lorem ipsum dolor sit amet consectetur
+              </h2>
+              <p class="conversation__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
+                error ipsum, voluptate culpa nesciunt delectus iste?
+              </p>
+              <a href="javascript:void(0)" class="btn btn-secondary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Security section -->
+        <section class="security">
+          <div class="security__container">
+            <!-- Security content -->
+            <div class="security__content">
+              <h2 class="security__heading">
+                Lorem ipsum dolor sit amet consectetur
+              </h2>
+              <p class="security__description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
+                error ipsum, voluptate culpa nesciunt delectus iste?
+              </p>
+              <a href="javascript:void(0)" class="btn btn-secondary"
+                >Learn More</a
+              >
+            </div>
+
+            <!-- Security image -->
+            <img
+              src="./assets/images/security.png"
+              alt="Image Security"
+              class="security__image"
+            />
+          </div>
+        </section>
+      </div>
     </div>
-
-    <!-- Sponsor section -->
-    <section class="sponsor">
-      <div class="sponsor__container align-center">
-        <div class="sponsor__content align-center">
-          <span class="sponsor__title line-height-125">Partners</span>
-          <h2 class="sponsor__heading line-height-125">Lorem Ipsum Dolor</h2>
-          <p class="sponsor__description line-height-125">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-
-        <!-- Logo items -->
-        <ul class="sponsor__logos">
-          <li class="sponsor__logo-item">
-            <img src="./assets/images/logo-1.png" alt="Logo Sponsor" />
-          </li>
-          <li class="sponsor__logo-item">
-            <img src="./assets/images/logo-2.png" alt="Logo Sponsor" />
-          </li>
-          <li class="sponsor__logo-item">
-            <img src="./assets/images/logo-3.png" alt="Logo Sponsor" />
-          </li>
-          <li class="sponsor__logo-item">
-            <img src="./assets/images/logo-4.png" alt="Logo Sponsor" />
-          </li>
-          <li class="sponsor__logo-item">
-            <img src="./assets/images/logo-5.png" alt="Logo Sponsor" />
-          </li>
-        </ul>
-        <a href="javascript:void(0)" class="btn btn-secondary">Learn More</a>
-      </div>
-    </section>
-
-    <!-- Conversation section -->
-    <section class="conversation">
-      <div class="conversation__container">
-        <!-- Conversation image -->
-        <img
-          src="./assets/images/conversation.png"
-          alt="Conversation Image"
-          class="conversation__image"
-        />
-
-        <!-- Conversation content -->
-        <div class="conversation__content">
-          <h2 class="conversation__heading">
-            Lorem ipsum dolor sit amet consectetur
-          </h2>
-          <p class="conversation__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
-            voluptate culpa nesciunt delectus iste?
-          </p>
-          <a href="javascript:void(0)" class="btn btn-secondary">Learn More</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Security section -->
-    <section class="security">
-      <div class="security__container">
-        <!-- Security content -->
-        <div class="security__content">
-          <h2 class="security__heading">
-            Lorem ipsum dolor sit amet consectetur
-          </h2>
-          <p class="security__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
-            voluptate culpa nesciunt delectus iste?
-          </p>
-          <a href="javascript:void(0)" class="btn btn-secondary">Learn More</a>
-        </div>
-
-        <!-- Security image -->
-        <img
-          src="./assets/images/security.png"
-          alt="Image Security"
-          class="security__image"
-        />
-      </div>
-    </section>
   </body>
 </html>

@@ -1,13 +1,22 @@
 @import url("./abstracts/variables.css");
 @import url("./base/typo.css");
 
+.wrapper {
+  width: 1440px;
+  margin: auto;
+}
+
+.width-container {
+  width: 1180px;
+  margin: auto;
+}
+
 .header__background {
   background-color: var(--primary-color);
 }
 
 .container {
   display: flex;
-  width: 1175px;
   align-items: center;
   justify-content: space-between;
   padding-top: 35px;
@@ -42,7 +51,6 @@
 /* Welcome section */
 .welcome {
   margin: auto;
-  width: 1180px;
   display: flex;
   gap: 120px;
   padding-bottom: 82.87px;
@@ -129,7 +137,6 @@
 
 /* Pattern Section */
 .sponsor__container {
-  width: var(--width);
   margin: 60 auto;
   gap: 55px;
 }
@@ -174,7 +181,6 @@
 
 /* Conversation Section */
 .conversation__container {
-  width: var(--width);
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
