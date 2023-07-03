@@ -15,16 +15,37 @@
   margin: auto;
 }
 
+.flex-center-row-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text--black-fs-md {
+  font-size: var(--fs-md);
+  font-family: var(--ff-primary-regular);
+}
+
+.text--gray-fs-sm {
+  font-size: var(--fs-sm);
+  font-family: var(--ff-primary-regular);
+  color: var(--gray);
+}
+
+.text--primary-color-uppercase {
+  font-family: var(--ff-primary-bold);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+/* Header */
 .background {
   background-color: var(--primary-color);
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 35px;
-  padding-bottom: 40px;
+  padding: 37px 0px;
   margin: auto;
   color: var(--white);
   font-family: var(--ff-primary-regular);
@@ -81,9 +102,7 @@
 }
 
 .welcome__description {
-  text-transform: none;
   font-size: var(--fs-sm);
-  letter-spacing: 0px;
   font-family: var(--ff-primary-regular);
   color: var(--white);
   margin-bottom: 25px;
@@ -148,21 +167,12 @@
   width: 411px;
 }
 
-.sponsor__title {
-  font-family: var(--ff-primary-bold);
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color: var(--primary-color);
-}
-
 .sponsor__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
 }
 
 .sponsor__description {
-  font-size: var(--fs-md);
-  font-family: var(--ff-primary-regular);
   text-align: center;
 }
 
@@ -171,12 +181,17 @@
   gap: 68px;
 }
 
+.sponsor__logo-item {
+  transition: 0.3s;
+}
+
+.sponsor__logo-item:hover {
+  transform: scale(1.2);
+}
+
 /* Conversation Section */
 .conversation__container {
   margin: 60px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .conversation__content {
@@ -191,17 +206,9 @@
   font-family: var(--ff-secondary-bold);
 }
 
-.conversation__description {
-  font-size: var(--fs-sm);
-  font-family: var(--ff-primary-regular);
-}
-
 /* Security section */
 .security__container {
   margin: 60px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .security__content {
@@ -216,11 +223,6 @@
   font-family: var(--ff-secondary-bold);
 }
 
-.security__description {
-  font-size: 15px;
-  font-family: var(--ff-primary-regular);
-}
-
 /* Team section */
 
 .team__container {
@@ -233,23 +235,12 @@
   gap: 16px;
 }
 
-.team__title {
-  font-family: var(--ff-primary-bold);
-  letter-spacing: 5px;
-  text-transform: uppercase;
-
-  color: var(--primary-color);
-}
-
 .team__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
 }
 
 .team__description {
-  font-size: var(--fs-md);
-  font-family: var(--ff-primary-regular);
-
   text-align: center;
 }
 
