@@ -1,6 +1,10 @@
 @import url("./abstracts/variables.css");
 @import url("./base/typo.css");
 
+* {
+  line-height: 125%;
+}
+
 .wrapper {
   width: 1440px;
   margin: auto;
@@ -63,11 +67,6 @@
   gap: 15px;
 }
 
-.welcome__image {
-  width: 644.279px;
-  height: 378.13px;
-}
-
 .welcome__title {
   font-family: var(--ff-primary-bold);
   letter-spacing: 5px;
@@ -78,7 +77,6 @@
 .welcome__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
   color: var(--white);
 }
 
@@ -87,7 +85,6 @@
   font-size: var(--fs-sm);
   letter-spacing: 0px;
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
   color: var(--white);
   margin-bottom: 25px;
 }
@@ -106,7 +103,6 @@
   font-family: var(--ff-primary-regular);
   font-size: var(--fs-md);
   text-decoration: none;
-  line-height: 125%;
 
   /* Other */
   cursor: pointer;
@@ -159,10 +155,6 @@
   color: var(--primary-color);
 }
 
-.line-height-125 {
-  line-height: 125%;
-}
-
 .sponsor__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
@@ -197,18 +189,15 @@
 .conversation__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
 }
 
 .conversation__description {
   font-size: var(--fs-sm);
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
 }
 
 /* Security section */
 .security__container {
-  width: var(--width);
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
@@ -225,11 +214,9 @@
 .security__heading {
   font-size: var(--fs-lg);
   font-family: var(--ff-secondary-bold);
-  line-height: 125%;
 }
 
 .security__description {
   font-size: 15px;
   font-family: var(--ff-primary-regular);
-  line-height: 125%;
 }
