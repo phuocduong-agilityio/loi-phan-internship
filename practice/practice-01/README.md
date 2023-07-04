@@ -8,7 +8,7 @@
   - Build a website using HTML5, CSS3.
 - Design: [link](<https://www.figma.com/file/yZoAxrvKsf3mke9VZLNIrw/Responsive-Startup-Website-(Community)>)
 - Plan: [practice-one](https://docs.google.com/document/d/142yCLkrdfBK6uohQzY1Q9DheIuVU5K8H/edit)
-- Deploy: _update later_
+- Deploy: [link](https://html-css-training-one.nezumi.site/)
 
 ## Requirements
 
@@ -30,7 +30,8 @@
 ## Information
 
 - Timeline:
-  - The practice should be done in 3 days. However, my code is not clean so be needed to review more and it takes about 4 days to complete.
+  - Estimate: 3 days
+  - Actual: 4 days.
   - Calendar:
     - Start: 2023/06/28
     - End: 2023/07/03
@@ -46,14 +47,16 @@
   - With HTTPS:
     - `$ git clone https://github.com/phuocduong-agilityio/loi-phan-internship.git`.
 - Step 2: Move to folder which just cloned in your computer.
-  - `cd internship-loi-phan\practice\practice-01`.
+  - `cd ./internship-loi-phan`.
 - Step 3: Move it to branch html-css-practice-one.
   - `$ git checkout html-css-practice-one`.
-- Step 4:
-  - Open terminal > `npm i` or `yarn i`.
+- Step 4: Move to folder practice-01.
+  - `$ cd ./practice/practice-01`.
 - Step 5:
-  - Run `npm start` or `yarn start`.
+  - Open terminal > `npm i`.
 - Step 6:
+  - Run `npm start`.
+- Step 7:
   - Open http://localhost:1234/ in browser.
 
 ## Author
