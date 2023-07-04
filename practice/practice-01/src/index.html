@@ -14,10 +14,10 @@
         <!-- Header -->
         <div class="width-container">
           <header>
-            <div class="container flex-center-row-space-between">
+            <div class="container divide-content-center text text--md">
               <img src="./assets/images/logo.svg" alt="" class="logo" />
               <nav class="nav">
-                <ul class="nav__lists">
+                <ul class="nav__lists d-flex justify-content-between">
                   <li class="nav__item">
                     <a href="javascript:void(0)" class="nav__item-link">Home</a>
                   </li>
@@ -42,18 +42,20 @@
           </header>
 
           <!-- Welcome section -->
-          <section class="welcome">
-            <div class="welcome__content">
-              <span class="welcome__title">Welcome</span>
-              <h1 class="welcome__heading">
+          <section class="welcome d-flex align-item-center">
+            <div class="welcome__content d-flex flex-column">
+              <span class="welcome__title text--bold">Welcome</span>
+              <h1 class="welcome__heading text--secondary">
                 Lorem ipsum dolor sit amet consectetur
               </h1>
-              <p class="welcome__description">
+              <p class="welcome__description text text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
                 error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
-              <a href="javascript:void(0)" class="btn btn-primary">Explore</a>
+              <a href="javascript:void(0)" class="btn btn-primary text"
+                >Explore</a
+              >
             </div>
             <img
               src="./assets/images/header-image.png"
@@ -69,17 +71,19 @@
         <section class="sponsor">
           <div class="sponsor__container align-center">
             <div class="sponsor__content align-center">
-              <span class="sponsor__title text--primary-color-uppercase"
+              <span class="sponsor__title text--bold text--title"
                 >Partners</span
               >
-              <h2 class="sponsor__heading">Lorem Ipsum Dolor</h2>
-              <p class="sponsor__description text--black-fs-md">
+              <h2 class="sponsor__heading text--secondary text--lg">
+                Lorem Ipsum Dolor
+              </h2>
+              <p class="sponsor__description text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
 
             <!-- Logo items -->
-            <ul class="sponsor__logos">
+            <ul class="sponsor__logos d-flex">
               <li class="sponsor__logo-item">
                 <img src="./assets/images/logo-1.png" alt="Logo Sponsor" />
               </li>
@@ -96,7 +100,7 @@
                 <img src="./assets/images/logo-5.png" alt="Logo Sponsor" />
               </li>
             </ul>
-            <a href="javascript:void(0)" class="btn btn-secondary"
+            <a href="javascript:void(0)" class="btn btn-secondary text"
               >Learn More</a
             >
           </div>
@@ -104,7 +108,7 @@
 
         <!-- Conversation section -->
         <section class="conversation">
-          <div class="conversation__container flex-center-row-space-between">
+          <div class="conversation__container divide-content-center">
             <!-- Conversation image -->
             <img
               src="./assets/images/conversation.png"
@@ -113,16 +117,16 @@
             />
 
             <!-- Conversation content -->
-            <div class="conversation__content">
-              <h2 class="conversation__heading">
+            <div class="conversation__content d-flex flex-column">
+              <h2 class="conversation__heading text--secondary text--lg">
                 Lorem ipsum dolor sit amet consectetur
               </h2>
-              <p class="conversation__description text--gray-fs-sm">
+              <p class="conversation__description text text--gray text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
                 error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
-              <a href="javascript:void(0)" class="btn btn-secondary"
+              <a href="javascript:void(0)" class="btn btn-secondary text"
                 >Learn More</a
               >
             </div>
@@ -131,18 +135,18 @@
 
         <!-- Security section -->
         <section class="security">
-          <div class="security__container flex-center-row-space-between">
+          <div class="security__container divide-content-center">
             <!-- Security content -->
-            <div class="security__content">
-              <h2 class="security__heading">
+            <div class="security__content d-flex flex-column">
+              <h2 class="security__heading text--secondary text--lg">
                 Lorem ipsum dolor sit amet consectetur
               </h2>
-              <p class="security__description text--gray-fs-sm">
+              <p class="security__description text text--gray text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos
                 error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
-              <a href="javascript:void(0)" class="btn btn-secondary"
+              <a href="javascript:void(0)" class="btn btn-secondary text"
                 >Learn More</a
               >
             </div>
@@ -161,18 +165,18 @@
           <div class="team__container align-center">
             <!-- Team content -->
             <div class="team__content align-center">
-              <span class="team__title text--primary-color-uppercase"
-                >Team</span
-              >
-              <h2 class="team__heading">Our talents</h2>
-              <p class="team__description text--black-fs-md">
+              <span class="team__title text--bold text--title">Team</span>
+              <h2 class="team__heading text--secondary text--lg">
+                Our talents
+              </h2>
+              <p class="team__description text">
                 Lorem ipsum, dolor sit amet consectetur Suscipit nemo hic quos,
                 ab,
               </p>
             </div>
 
             <!-- Avatar Image -->
-            <div class="team__image-container">
+            <div class="team__image-container d-flex">
               <!-- Frame 1 -->
               <div class="team__frame">
                 <div class="team__image-content align-center">
@@ -181,9 +185,11 @@
                     alt="Avatar Image"
                     class="team__image"
                   />
-                  <div class="team__information">
-                    <span class="team__name">Peg legge</span>
-                    <span class="team__position">Ceo</span>
+                  <div class="team__information d-flex flex-column">
+                    <span class="team__name text--secondary">Peg legge</span>
+                    <span class="team__position text text--sm text--gray"
+                      >Ceo</span
+                    >
                   </div>
                 </div>
               </div>
@@ -197,8 +203,12 @@
                     class="team__image"
                   />
                   <div class="team__information">
-                    <span class="team__name">Richard guerra</span>
-                    <span class="team__position">Cto</span>
+                    <span class="team__name text--secondary"
+                      >Richard guerra</span
+                    >
+                    <span class="team__position text text--sm text--gray"
+                      >Cto</span
+                    >
                   </div>
                 </div>
               </div>
@@ -212,8 +222,12 @@
                     class="team__image"
                   />
                   <div class="team__information">
-                    <span class="team__name">Alexandra stolz</span>
-                    <span class="team__position">Designer</span>
+                    <span class="team__name text--secondary"
+                      >Alexandra stolz</span
+                    >
+                    <span class="team__position text text--sm text--gray"
+                      >Designer</span
+                    >
                   </div>
                 </div>
               </div>
@@ -227,13 +241,17 @@
                     class="team__image"
                   />
                   <div class="team__information">
-                    <span class="team__name">Peg legge</span>
-                    <span class="team__position">Developer</span>
+                    <span class="team__name text--secondary">Janet bray</span>
+                    <span class="team__position text text--sm text--gray"
+                      >Developer</span
+                    >
                   </div>
                 </div>
               </div>
             </div>
-            <a href="javascript:void(0)" class="btn btn-secondary">View Team</a>
+            <a href="javascript:void(0)" class="btn btn-secondary text"
+              >View Team</a
+            >
           </div>
         </section>
       </div>
@@ -241,8 +259,8 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="background">
-          <div class="footer__content">
-            <div class="footer__logos">
+          <div class="footer__content d-flex justify-content-between">
+            <div class="footer__logos d-flex">
               <a href="javascript:void(0)"
                 ><img
                   src="./assets/images/facebook.svg"
@@ -292,7 +310,7 @@
               </a>
             </div>
 
-            <span class="footer__text"
+            <span class="footer__text text"
               >&#64; Start, 2022. All rights reserved.</span
             >
           </div>
