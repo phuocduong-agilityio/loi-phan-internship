@@ -1,25 +1,25 @@
 @font-face {
   font-family: CrimsonText-Regular;
-  src: url(../../font/CrimsonText-Regular.ttf);
+  src: url(../../fonts/CrimsonText-Regular.ttf);
 }
 
 @font-face {
   font-family: CrimsonText-Bold;
-  src: url(../../font/CrimsonText-700.ttf);
+  src: url(../../fonts/CrimsonText-700.ttf);
   font-weight: 700;
 }
 
 @font-face {
   font-family: WorkSans-Medium;
-  src: url(../../font/WorkSans-500.ttf);
+  src: url(../../fonts/WorkSans-500.ttf);
 }
 
 @font-face {
   font-family: WorkSans-Bold;
-  src: url(../../font/WorkSans-700.ttf);
+  src: url(../../fonts/WorkSans-700.ttf);
 }
 
 @font-face {
   font-family: WorkSans-Regular;
-  src: url(../../font/WorkSans-Regular.ttf);
+  src: url(../../fonts/WorkSans-Regular.ttf);
 }

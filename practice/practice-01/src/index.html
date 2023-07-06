@@ -3,54 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practice 01</title>
-    <link rel="stylesheet" href="./style/base/reset.css" />
-    <link rel="stylesheet" href="./style/main.css" />
+    <title>Startup Website</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="background">
-        <!-- Header -->
-        <div class="width-container">
-          <header>
-            <div class="container divide-content-center text text--md">
-              <img src="./assets/images/logo.svg" alt="" class="logo" />
-              <nav class="nav">
-                <ul class="nav__lists d-flex justify-content-between">
-                  <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__item-link">Home</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__item-link">Portfolio</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__item-link">Services</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="javascript:void(0)" class="nav__item-link">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </header>
+    <div class="background">
+      <div class="width-container">
+        <!-- Start header -->
+        <header class="header">
+          <div class="divide-content-center text text--md">
+            <a href="javascript:void(0)" class="logo-link">
+              <div class="logo-wrapper">
+                <img src="./assets/images/logo.svg" alt="Logo web" class="logo" />
+              </div>
+            </a>
+            <nav class="nav">
+              <ul class="nav__lists justify-content-between">
+                <li class="nav__item">
+                  <a href="javascript:void(0)" class="nav__item-link text">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="javascript:void(0)" class="nav__item-link text">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                  <a href="javascript:void(0)" class="nav__item-link text">Services</a>
+                </li>
+                <li class="nav__item">
+                  <a href="javascript:void(0)" class="nav__item-link text">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!-- End header -->
 
-          <!-- Welcome section -->
-          <section class="welcome d-flex align-item-center">
-            <div class="welcome__content d-flex flex-column">
+        <!-- Start welcome section -->
+        <section class="welcome d-flex align-item-center">
+          <div class="welcome__content">
+            <div class="welcome__content-text">
               <span class="welcome__title text--bold">Welcome</span>
-              <h1 class="welcome__heading text--secondary">Lorem ipsum dolor sit amet consectetur</h1>
+              <h1 class="welcome__heading text--secondary text--lg">Lorem ipsum dolor sit amet consectetur</h1>
               <p class="welcome__description text text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
                 nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
-              <a href="javascript:void(0)" class="btn btn-primary text">Explore</a>
             </div>
+            <a href="javascript:void(0)" class="welcome__btn btn btn-primary text">Explore</a>
+          </div>
+          <div class="welcome-image-container">
             <img src="./assets/images/header-image.png" alt="Header Image" class="welcome__image" />
-          </section>
-        </div>
+          </div>
+        </section>
+        <!-- End welcome section -->
       </div>
+    </div>
 
+    <main>
       <div class="width-container">
         <!-- Sponsor section -->
         <section class="sponsor">
@@ -82,17 +92,20 @@
             <a href="javascript:void(0)" class="btn btn-secondary text">Learn More</a>
           </div>
         </section>
+        <!-- End sponsor section -->
 
         <!-- Conversation section -->
         <section class="conversation">
           <div class="conversation__container divide-content-center">
             <!-- Conversation image -->
-            <img src="./assets/images/conversation.png" alt="Conversation Image" class="conversation__image" />
+            <div class="conversation__wrapper-image">
+              <img src="./assets/images/conversation.png" alt="Conversation Image" class="conversation__image" />
+            </div>
 
             <!-- Conversation content -->
             <div class="conversation__content d-flex flex-column">
               <h2 class="conversation__heading text--secondary text--lg">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="conversation__description text text--gray text--sm">
+              <p class="conversation__description text text--secondary-color text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
                 nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
@@ -100,6 +113,7 @@
             </div>
           </div>
         </section>
+        <!-- End conversation section -->
 
         <!-- Security section -->
         <section class="security">
@@ -107,7 +121,7 @@
             <!-- Security content -->
             <div class="security__content d-flex flex-column">
               <h2 class="security__heading text--secondary text--lg">Lorem ipsum dolor sit amet consectetur</h2>
-              <p class="security__description text text--gray text--sm">
+              <p class="security__description text text--secondary-color text--sm">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam
                 nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
               </p>
@@ -115,9 +129,12 @@
             </div>
 
             <!-- Security image -->
-            <img src="./assets/images/security.png" alt="Image Security" class="security__image" />
+            <div class="security__wrapper-image">
+              <img src="./assets/images/security.png" alt="Image Security" class="security__image" />
+            </div>
           </div>
         </section>
+        <!-- End security section -->
 
         <!-- Team section -->
         <section class="team">
@@ -134,10 +151,12 @@
               <!-- Frame 1 -->
               <div class="team__frame">
                 <div class="team__image-content align-center">
-                  <img src="./assets/images/avatar-1.png" alt="Avatar Image" class="team__image" />
+                  <div class="team__wrapper-image">
+                    <img src="./assets/images/avatar-1.png" alt="Avatar Image" class="team__image" />
+                  </div>
                   <div class="team__information d-flex flex-column">
                     <span class="team__name text--secondary">Peg legge</span>
-                    <span class="team__position text text--sm text--gray">Ceo</span>
+                    <span class="team__position text text--sm text--secondary-color">Ceo</span>
                   </div>
                 </div>
               </div>
@@ -145,10 +164,12 @@
               <!-- Frame 2 -->
               <div class="team__frame">
                 <div class="team__image-content align-center">
-                  <img src="./assets/images/avatar-2.png" alt="Avatar Image" class="team__image" />
+                  <div class="team__wrapper-image">
+                    <img src="./assets/images/avatar-2.png" alt="Avatar Image" class="team__image" />
+                  </div>
                   <div class="team__information">
                     <span class="team__name text--secondary">Richard guerra</span>
-                    <span class="team__position text text--sm text--gray">Cto</span>
+                    <span class="team__position text text--sm text--secondary-color">Cto</span>
                   </div>
                 </div>
               </div>
@@ -156,10 +177,12 @@
               <!-- Frame 3 -->
               <div class="team__frame">
                 <div class="team__image-content align-center">
-                  <img src="./assets/images/avatar-3.png" alt="Avatar Image" class="team__image" />
+                  <div class="team__wrapper-image">
+                    <img src="./assets/images/avatar-3.png" alt="Avatar Image" class="team__image" />
+                  </div>
                   <div class="team__information">
                     <span class="team__name text--secondary">Alexandra stolz</span>
-                    <span class="team__position text text--sm text--gray">Designer</span>
+                    <span class="team__position text text--sm text--secondary-color">Designer</span>
                   </div>
                 </div>
               </div>
@@ -167,10 +190,12 @@
               <!-- Frame 4 -->
               <div class="team__frame">
                 <div class="team__image-content align-center">
-                  <img src="./assets/images/avatar-4.png" alt="Avatar Image" class="team__image" />
+                  <div class="team__wrapper-image">
+                    <img src="./assets/images/avatar-4.png" alt="Avatar Image" class="team__image" />
+                  </div>
                   <div class="team__information">
                     <span class="team__name text--secondary">Janet bray</span>
-                    <span class="team__position text text--sm text--gray">Developer</span>
+                    <span class="team__position text text--sm text--secondary-color">Developer</span>
                   </div>
                 </div>
               </div>
@@ -178,40 +203,44 @@
             <a href="javascript:void(0)" class="btn btn-secondary text">View Team</a>
           </div>
         </section>
+        <!-- End team section -->
       </div>
+    </main>
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="background">
+    <!-- Footer -->
+    <div class="background">
+      <div class="width-container">
+        <footer class="footer">
           <div class="footer__content d-flex justify-content-between">
             <div class="footer__logos d-flex">
-              <a href="javascript:void(0)"
-                ><img src="./assets/images/facebook.svg" alt="Facebook logo" class="footer__logo-item"
-              /></a>
-              <a href="javascript:void(0)"
-                ><img src="./assets/images/instagram.svg" alt="Instagram logo" class="footer__logo-item"
-              /></a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" class="footer__link">
+                <img src="./assets/images/facebook.svg" alt="Facebook logo" class="footer__logo-item" />
+              </a>
+              <a href="javascript:void(0)" class="footer__link">
+                <img src="./assets/images/instagram.svg" alt="Instagram logo" class="footer__logo-item" />
+              </a>
+              <a href="javascript:void(0)" class="footer__link">
                 <img src="./assets/images/twitter.svg" alt="Twitter logo" class="footer__logo-item" />
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" class="footer__link">
                 <img src="./assets/images/pinterest.svg" alt="Pinterest logo" class="footer__logo-item" />
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" class="footer__link">
                 <img src="./assets/images/tiktok.svg" alt="Tiktok logo" class="footer__logo-item" />
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" class="footer__link">
                 <img src="./assets/images/wechat.svg" alt="Wechat logo" class="footer__logo-item" />
               </a>
-              <a href="javascript:void(0)">
+              <a href="javascript:void(0)" class="footer__link">
                 <img src="./assets/images/youtube.svg" alt="Youtube Logo" class="footer__logo-item" />
               </a>
             </div>
 
-            <span class="footer__text text">&#64; Start, 2022. All rights reserved.</span>
+            <span class="footer__text text">&copy; Start, 2022. All rights reserved.</span>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
+    <!-- End footer -->
   </body>
 </html>
