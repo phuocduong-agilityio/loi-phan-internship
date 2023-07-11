@@ -1,0 +1,12 @@
+mixin developerItem(image, name, job, desc)
+  .developer-item
+    .developer-image 
+      img(src= image, alt="Photo")
+    h3.developer-name= name 
+    .developer-meta 
+      span.developer-job= job 
+      span.developer-rate
+    if desc
+      p.developer-description= desc
+    else
+      p.developer-description= "This is default text"

@@ -1,0 +1,42 @@
+//Import
+@import "./variables";
+@import "./mixins";
+
+html {
+  font-size: 62.5%;
+}
+
+//Nested Code
+
+p {
+  padding: 2rem;
+  color: $text-color;
+  background-color: $background;
+}
+
+.header {
+  padding: 2rem;
+  @include background(black);
+
+  &-inner {
+    @include background();
+
+    &-text {
+      color: blue;
+
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+
+  @include minWidth(1024px) {
+    display: none;
+  }
+}
+
+.box {
+  @include background(red);
+  @include size(100px);
+  @include absoluteCenter("both");
+}
